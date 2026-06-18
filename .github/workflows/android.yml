@@ -25,6 +25,7 @@ jobs:
           version: '6.11.1'
           target: 'android'
           arch: 'android_arm64_v8a'
+          modules: 'qtcharts'
   
       - name: Install NDK
         run: |
